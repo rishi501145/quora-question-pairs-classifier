@@ -37,6 +37,15 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 
 **first_word_eq:** 1 if the first word in the two questions is same, 0 otherwise
 
+#### ctc_max_cwc_max_csc_max
+![alt text](https://github.com/rishi501145/quora-question-pairs-classifier/blob/main/imgaes/ctc_max_cwc_max_csc_max.png)
+
+#### ctc_min_cwc_min_csc_min
+
+![alt text](https://github.com/rishi501145/quora-question-pairs-classifier/blob/main/imgaes/ctc_min_cwc_min_csc_min.png.png)
+
+
+
 ### 2. Length Based Features
 
 **mean_len:** Mean of the length of the two questions (number of words)
@@ -44,6 +53,12 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 **abs_len_diff:** Absolute difference between the length of the two questions (number of words)
 
 **longest_substr_ratio:** Ratio of the length of the longest substring among the two questions to the length of the smaller question
+
+#### first_last_word
+
+![alt text](https://github.com/rishi501145/quora-question-pairs-classifier/blob/main/imgaes/first_last_word.png)
+
+![alt text](https://github.com/rishi501145/quora-question-pairs-classifier/blob/main/imgaes/length_feature.png)
 
 
 ### 3. Fuzzy Features
@@ -56,5 +71,20 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 
 **token_set_ratio:** token_set_ratio from fuzzywuzzy
 
+### Fuzzy Features
+![alt text](https://github.com/rishi501145/quora-question-pairs-classifier/blob/main/imgaes/fuzzywuzzy.png)
 
 
+
+
+
+
+
+## visualization
+
+### How data look in 3d space using plotly
+
+![alt text](https://github.com/rishi501145/quora-question-pairs-classifier/blob/main/imgaes/data%20in%203d.png)
+
+### How data look in 2d space using plotly
+![alt text](https://github.com/rishi501145/quora-question-pairs-classifier/blob/main/imgaes/isduplicated2d.png)
